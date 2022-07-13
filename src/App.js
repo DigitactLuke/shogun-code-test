@@ -11,6 +11,7 @@ import {
 
 export default () => {
   return (
+    <div className='main-background'>
     <Footer
       navSections={navSections}
       baselineLinks={baselineLinks}
@@ -19,5 +20,6 @@ export default () => {
       brandLink={brandLink}
       brandLogo={brandLogo}
     />
+    </div>
   );
 };
